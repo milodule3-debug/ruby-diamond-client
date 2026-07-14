@@ -1,5 +1,7 @@
 # Ruby Diamond v0.1.0
 
+![Ruby Diamond](assets/ruby_client.png)
+
 **AI-powered desktop IDE with autonomous agents, agent mesh, system monitoring, and persistent memory.**
 
 Built with Tauri v2 (Rust + React/TypeScript), Ruby Diamond is a full-stack AI development environment that lets you create, configure, and run AI agents directly on your desktop — with real tool access, multi-agent debate protocols, local LLM support, and deep system integration.
