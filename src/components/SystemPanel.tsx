@@ -1,5 +1,5 @@
 // ============================================================================
-// Ruby Diamond — System Monitor Panel
+// Aura Mathetes — System Monitor Panel
 // ============================================================================
 
 import { useState, useEffect, useRef, useCallback } from "react";

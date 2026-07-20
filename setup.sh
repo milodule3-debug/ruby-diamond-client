@@ -1,8 +1,8 @@
 #!/bin/bash
-# Ruby Diamond Client — System Setup
+# Aura Mathetes Client — System Setup
 # Run with: sudo bash setup.sh
 
-echo "🔧 Installing system dependencies for Ruby Diamond..."
+echo "🔧 Installing system dependencies for Aura Mathetes..."
 
 sudo dnf install -y \
   dbus-devel \
@@ -16,7 +16,7 @@ echo ""
 echo "✅ System dependencies installed."
 echo ""
 echo "Now run:"
-echo "  cd ruby-diamond-client"
+echo "  cd aura-mathetes-client"
 echo "  pnpm install"
 echo "  pnpm tauri dev     # Development mode"
 echo "  pnpm tauri build   # Production build (~7MB)"

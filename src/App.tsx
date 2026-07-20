@@ -93,7 +93,7 @@ export default function App() {
         <div className="app">
           <div className="titlebar">
             <div className="titlebar-left">
-              <img src="/ruby.svg" className="titlebar-logo" alt="" />
+              <img src="/aura.svg" className="titlebar-logo" alt="" />
               <span className="titlebar-title">RUBY DIAMOND</span>
               <AgentTabs />
             </div>

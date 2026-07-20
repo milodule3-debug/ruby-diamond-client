@@ -1,8 +1,8 @@
-# Ruby Diamond — Architecture Guide
+# Aura Mathetes — Architecture Guide
 
 ## System Overview
 
-Ruby Diamond is a hybrid desktop/web application built with **Tauri v2** (Rust backend + React/TypeScript frontend). It provides an AI-powered development environment with autonomous agents, multi-agent collaboration, local LLM support, and deep system monitoring.
+Aura Mathetes is a hybrid desktop/web application built with **Tauri v2** (Rust backend + React/TypeScript frontend). It provides an AI-powered development environment with autonomous agents, multi-agent collaboration, local LLM support, and deep system monitoring.
 
 ```
 ┌─────────────────────────────────────────────────────────────┐

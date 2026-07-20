@@ -92,7 +92,7 @@ impl HonchoClient {
 
         let mut metadata: HashMap<String, String> = HashMap::new();
         metadata.insert("task".into(), task_description.to_string());
-        metadata.insert("app".into(), "ruby-diamond".into());
+        metadata.insert("app".into(), "aura-mathetes".into());
 
         let body = serde_json::json!({
             "peer_id": peer_id,
@@ -176,7 +176,7 @@ impl HonchoClient {
             peers: Vec::new(),
             sessions: Vec::new(),
             total_messages: 0,
-            workspace_name: "ruby-diamond".into(),
+            workspace_name: "aura-mathetes".into(),
         })
     }
 

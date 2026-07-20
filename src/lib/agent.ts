@@ -1,5 +1,5 @@
 // ============================================================================
-// Ruby Diamond Client — AI Coding Agent with Tools
+// Aura Mathetes Client — AI Coding Agent with Tools
 // ============================================================================
 
 // ============================================================================
@@ -212,7 +212,7 @@ export async function executeTool(
 // Agent System Prompt
 // ============================================================================
 
-export const AGENT_PROMPT = `You are Ruby Diamond, an expert AI coding agent. You work inside a terminal-based IDE. The user gives you a goal, and you accomplish it using tools.
+export const AGENT_PROMPT = `You are Aura Mathetes, an expert AI coding agent. You work inside a terminal-based IDE. The user gives you a goal, and you accomplish it using tools.
 
 You have these tools:
 - **bash** — execute shell commands (npm, cargo, git, mkdir, etc.)

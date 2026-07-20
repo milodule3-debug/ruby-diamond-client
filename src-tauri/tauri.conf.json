@@ -1,8 +1,8 @@
 {
   "$schema": "https://raw.githubusercontent.com/nicedoc/tauri/dev/crates/tauri-config-schema/schema.json",
-  "productName": "Ruby Diamond",
+  "productName": "Aura Mathetes",
   "version": "0.1.0",
-  "identifier": "app.rubydiamond.client",
+  "identifier": "app.auramathetes.client",
   "build": {
     "frontendDist": "../dist",
     "devUrl": "http://localhost:1420",
@@ -12,7 +12,7 @@
   "app": {
     "windows": [
       {
-        "title": "Ruby Diamond",
+        "title": "Aura Mathetes",
         "width": 1280,
         "height": 800,
         "minWidth": 900,

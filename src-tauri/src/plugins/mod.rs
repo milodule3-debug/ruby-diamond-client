@@ -266,7 +266,7 @@ pub async fn plugin_install(
     let engine = crate::skills::SkillEngine::new(vec![
         "skills".to_string(),
         dirs::home_dir()
-            .map(|h| format!("{}/.ruby-diamond/skills", h.display()))
+            .map(|h| format!("{}/.aura-mathetes/skills", h.display()))
             .unwrap_or_default(),
     ]);
     *state.skill_engine.lock().unwrap() = engine;
@@ -286,7 +286,7 @@ pub async fn plugin_uninstall(
     let engine = crate::skills::SkillEngine::new(vec![
         "skills".to_string(),
         dirs::home_dir()
-            .map(|h| format!("{}/.ruby-diamond/skills", h.display()))
+            .map(|h| format!("{}/.aura-mathetes/skills", h.display()))
             .unwrap_or_default(),
     ]);
     *state.skill_engine.lock().unwrap() = engine;

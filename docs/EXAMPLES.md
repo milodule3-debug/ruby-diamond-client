@@ -1,4 +1,4 @@
-# Ruby Diamond — User Guide Examples
+# Aura Mathetes — User Guide Examples
 
 ## Scenario 1: Code Review sa Agentom
 
@@ -6,7 +6,7 @@
 
 **Komanda u Chat panelu:**
 ```
-C:\/home/dusanmilosavljevic/ruby-diamond-client
+C:\/home/dusanmilosavljevic/aura-mathetes-client
 ├─ src-tauri/
 │  ├─ Cargo.toml
 │  └─ src/
@@ -37,7 +37,7 @@ and suggest improvements with code examples.
 **U Mesh panelu → Debate:**
 
 ```
-Goal: Should we use SQLite or PostgreSQL for Ruby Diamond's
+Goal: Should we use SQLite or PostgreSQL for Aura Mathetes's
 internal data storage? Consider: portability, performance,
 concurrent access, ease of setup for end users.
 
@@ -176,7 +176,7 @@ Ovaj agent će:
 **Cilj:** Agent pomaže da nađete bag.
 
 ```
-Goal: The terminal tool in Ruby Diamond sometimes returns
+Goal: The terminal tool in Aura Mathetes sometimes returns
 truncated output. Find where truncation happens in
 src-tauri/src/tools/builtin.rs and suggest a fix.
 ```
@@ -190,7 +190,7 @@ Agent će:
 
 ## Scenario 9: Plugin Development
 
-**Cilj:** Napraviti custom skill za Ruby Diamond.
+**Cilj:** Napraviti custom skill za Aura Mathetes.
 
 **Kreiranje SKILL.md:**
 

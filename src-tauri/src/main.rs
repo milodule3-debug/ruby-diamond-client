@@ -1,5 +1,5 @@
 #![cfg_attr(not(debug_assertions), windows_subsystem = "windows")]
 
 fn main() {
-    ruby_diamond_lib::run()
+    aura_mathetes_lib::run()
 }

@@ -1,13 +1,13 @@
 [package]
-name = "ruby-diamond"
+name = "aura-mathetes"
 version = "0.1.0"
 edition = "2024"
-description = "Ruby Diamond — AI-powered terminal & code editor with tool system and skill engine"
-authors = ["Ruby Diamond Team"]
+description = "Aura Mathetes — AI-powered terminal & code editor with tool system and skill engine"
+authors = ["Aura Mathetes Team"]
 license = "MIT"
 
 [lib]
-name = "ruby_diamond_lib"
+name = "aura_mathetes_lib"
 crate-type = ["staticlib", "cdylib", "rlib"]
 
 [build-dependencies]

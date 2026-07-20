@@ -31,7 +31,7 @@ export function TerminalPanel() {
     fitAddon.fit();
 
     term.writeln("╔══════════════════════════════════════════╗");
-    term.writeln("║   \x1b[1;35mRuby Diamond Client v0.1.0\x1b[0m            ║");
+    term.writeln("║   \x1b[1;35mAura Mathetes Client v0.1.0\x1b[0m            ║");
     term.writeln("║   AI Terminal · Tools · Skills · Agents  ║");
     term.writeln("╚══════════════════════════════════════════╝");
     term.writeln("");
@@ -76,7 +76,7 @@ function handleCommand(cmd: string, term: XTerm) {
       term.writeln("");
       break;
     case "about":
-      term.writeln("\n  \x1b[1;35mRuby Diamond\x1b[0m v0.1.0 — 7MB AI coding tool");
+      term.writeln("\n  \x1b[1;35mAura Mathetes\x1b[0m v0.1.0 — 7MB AI coding tool");
       term.writeln("  Tools: 10 | Skills: 3 | Mesh protocols: 3\n");
       break;
     case "status":

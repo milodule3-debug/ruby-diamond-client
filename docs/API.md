@@ -1,4 +1,4 @@
-# Ruby Diamond — API Reference
+# Aura Mathetes — API Reference
 
 ## Tauri Commands (Rust → Frontend IPC)
 

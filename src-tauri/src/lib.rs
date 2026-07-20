@@ -37,7 +37,7 @@ pub fn run() {
     let skill_engine = SkillEngine::new(vec![
         "skills".to_string(),
         dirs::home_dir()
-            .map(|h| format!("{}/.ruby-diamond/skills", h.display()))
+            .map(|h| format!("{}/.aura-mathetes/skills", h.display()))
             .unwrap_or_default(),
     ]);
 
@@ -101,9 +101,9 @@ pub fn run() {
         ])
         .setup(|app| {
             let window = app.get_webview_window("main").unwrap();
-            window.set_title("Ruby Diamond")?;
+            window.set_title("Aura Mathetes")?;
             Ok(())
         })
         .run(tauri::generate_context!())
-        .expect("error while running Ruby Diamond");
+        .expect("error while running Aura Mathetes");
 }

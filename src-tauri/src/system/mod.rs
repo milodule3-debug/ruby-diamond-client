@@ -1,5 +1,5 @@
 // ============================================================================
-// Ruby Diamond — System Monitor (Rust backend)
+// Aura Mathetes — System Monitor (Rust backend)
 // ============================================================================
 
 use serde::{Deserialize, Serialize};

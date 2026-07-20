@@ -1,6 +1,6 @@
-# Ruby Diamond v0.1.0 — User Guide
+# Aura Mathetes v0.1.0 — User Guide
 
-Kompletan vodič kako se koristi Ruby Diamond aplikacija sa praktičnim primerima.
+Kompletan vodič kako se koristi Aura Mathetes aplikacija sa praktičnim primerima.
 
 ---
 
@@ -24,23 +24,23 @@ Kompletan vodič kako se koristi Ruby Diamond aplikacija sa praktičnim primerim
 
 ### Desktop App (Tauri)
 ```bash
-cd ~/ruby-diamond-client
+cd ~/aura-mathetes-client
 pnpm tauri dev
 ```
-Ovo otvara nativni prozor sa Ruby Diamond-om.
+Ovo otvara nativni prozor sa Aura Mathetes-om.
 
 ### Web Browser (bez Tauri)
 ```bash
-cd ~/ruby-diamond-client
+cd ~/aura-mathetes-client
 pnpm dev
 ```
 Otvori `http://localhost:1420` u browseru.
 
 ### Šta vidite kad se otvori
 
-1. **Splash screen** — animirani uvod sa "Ruby Diamond" natpisom
+1. **Splash screen** — animirani uvod sa "Aura Mathetes" natpisom
 2. Pritisnite **Enter** ili sačekajte 10 sekundi
-3. Automatski se kreira **"Ruby" agent** sa MiMo-V2.5-Pro modelom
+3. Automatski se kreira **"Aura" agent** sa MiMo-V2.5-Pro modelom
 4. Leva **sidebar** sa 7 ikonica za navigaciju
 
 ---
@@ -106,7 +106,7 @@ Dva agenta debatuju, treći sudi.
 
 **Primer — Arhitekturna odluka:**
 ```
-Goal: Treba da izaberemo između SQLite i PostgreSQL za Ruby Diamond.
+Goal: Treba da izaberemo između SQLite i PostgreSQL za Aura Mathetes.
        Koja je bolja opcija i zašto?
 ```
 
@@ -218,7 +218,7 @@ Kliknite na ⚙️ **Cpu** ikonicu u sidebar-u.
 
 Kliknite "Discover Models" — pretražuje:
 - `models/`, `../models/`
-- `~/.ruby-diamond/models/`
+- `~/.aura-mathetes/models/`
 - `/home/dusanmilosavljevic/llama.cpp/models/`
 - `/home/dusanmilosavljevic/minicpm5-1b/`
 
@@ -432,7 +432,7 @@ Pokrenite Honcho server (ako ga imate). Default endpoint je `http://localhost:80
 
 ### Scenario 1: Istraživanje i editovanje koda
 
-1. Otvorite Ruby Diamond
+1. Otvorite Aura Mathetes
 2. Kliknite 💬 Chat
 3. Unesite: "Pročitaj `src-tauri/src/lib.rs` i reci mi koje su Tauri komande registrovane"
 4. Agent čita fajl i prikazuje listu komandi

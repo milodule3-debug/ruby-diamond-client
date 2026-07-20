@@ -1,12 +1,12 @@
-# Ruby Diamond v0.1.0
+# Aura Mathetes v0.1.0
 
-![Ruby Diamond](assets/ruby_client.png)
+![Aura Mathetes](assets/aura_mathetes.png)
 
 **AI-powered desktop IDE with autonomous agents, agent mesh, system monitoring, and persistent memory.**
 
-Built with Tauri v2 (Rust + React/TypeScript), Ruby Diamond is a full-stack AI development environment that lets you create, configure, and run AI agents directly on your desktop — with real tool access, multi-agent debate protocols, local LLM support, and deep system integration.
+Built with Tauri v2 (Rust + React/TypeScript), Aura Mathetes is a full-stack AI development environment that lets you create, configure, and run AI agents directly on your desktop — with real tool access, multi-agent debate protocols, local LLM support, and deep system integration.
 
-![Ruby Diamond](public/splash-bg.png)
+![Aura Mathetes](public/splash-bg.png)
 
 ---
 
@@ -75,7 +75,7 @@ Full-featured code editing:
 - xterm.js terminal emulator built in
 
 ### 9. Browser Mode
-When not running as a Tauri desktop app, Ruby Diamond falls back gracefully:
+When not running as a Tauri desktop app, Aura Mathetes falls back gracefully:
 - Browser-based agent chat via direct API calls (Anthropic-compatible, OpenAI-compatible)
 - Mock system stats for development/demo
 - Full UI in any modern browser at http://localhost:1420
@@ -93,8 +93,8 @@ When not running as a Tauri desktop app, Ruby Diamond falls back gracefully:
 
 ```bash
 # Clone
-git clone https://github.com/milodule3-debug/ruby-diamond-client.git
-cd ruby-diamond-client
+git clone https://github.com/milodule3-debug/aura-mathetes-client.git
+cd aura-mathetes-client
 
 # Install JS deps
 pnpm install
@@ -115,7 +115,7 @@ The app opens at **http://localhost:1420** (web) or as a native window (Tauri).
 
 ### First Run
 1. The splash screen appears — press **Enter** or wait 10 seconds
-2. A default **Ruby** agent is auto-created (MiMo-V2.5-Pro)
+2. A default **Aura** agent is auto-created (MiMo-V2.5-Pro)
 3. The sidebar (left) gives you access to all panels
 4. Click **Chat** to start talking to your agent
 5. Click **System Admin** to run `check system health`
@@ -125,7 +125,7 @@ The app opens at **http://localhost:1420** (web) or as a native window (Tauri).
 ## Architecture
 
 ```
-ruby-diamond-client/
+aura-mathetes-client/
 ├── src/                          # React frontend (TypeScript)
 │   ├── components/
 │   │   ├── Splash.tsx            # Animated splash screen
@@ -217,7 +217,7 @@ Agents support any OpenAI-compatible provider. Configure per-agent:
 Default provider URLs are auto-configured — set `base_url` for custom endpoints.
 
 ### Plugins & Skills
-Skills are `SKILL.md` files in `skills/` or `~/.ruby-diamond/skills/`. Format:
+Skills are `SKILL.md` files in `skills/` or `~/.aura-mathetes/skills/`. Format:
 ```markdown
 ---
 name: my-skill
@@ -247,4 +247,4 @@ pnpm tsc
 
 ## License
 
-MIT © Ruby Diamond Team
+MIT © Aura Mathetes Team

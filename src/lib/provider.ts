@@ -1,5 +1,5 @@
 // ============================================================================
-// Ruby Diamond — Provider with Tool Support (DeepSeek)
+// Aura Mathetes — Provider with Tool Support (DeepSeek)
 // ============================================================================
 
 import { TOOLS } from "./agent";

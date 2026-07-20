@@ -36,7 +36,7 @@ impl LlamaCppManager {
     /// Discover llama.cpp models in common locations
     pub fn discover_models(&self) -> Vec<LlamaModel> {
         let home_models = dirs::home_dir()
-            .map(|h| format!("{}/.ruby-diamond/models/", h.display()))
+            .map(|h| format!("{}/.aura-mathetes/models/", h.display()))
             .unwrap_or_default();
         let search_paths: Vec<&str> = vec![
             "models/",

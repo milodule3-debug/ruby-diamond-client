@@ -1,11 +1,11 @@
 // ============================================================================
-// Ruby Diamond — System Admin Agent
+// Aura Mathetes — System Admin Agent
 // ============================================================================
 
 import { useState, useRef, useEffect } from "react";
 import { ShieldCheck, Send, Terminal, AlertTriangle, CheckCircle } from "lucide-react";
 
-const SYSADMIN_PROMPT = `You are the Ruby Diamond System Administrator. Your job is to keep this Fedora Linux system in excellent shape.
+const SYSADMIN_PROMPT = `You are the Aura Mathetes System Administrator. Your job is to keep this Fedora Linux system in excellent shape.
 
 You have full bash access. You can run any command — updates, cleanup, diagnostics, fixes.
 

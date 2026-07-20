@@ -71,7 +71,7 @@ export function ChatPanel() {
         <textarea
           className="chat-input"
           rows={2}
-          placeholder={agentRunning ? "Agent running..." : "Ask Ruby Diamond..."}
+          placeholder={agentRunning ? "Agent running..." : "Ask Aura Mathetes..."}
           value={input}
           onChange={(e) => setInput(e.target.value)}
           onKeyDown={(e) => { if (e.key === "Enter" && !e.shiftKey) { e.preventDefault(); handleSend(); } }}

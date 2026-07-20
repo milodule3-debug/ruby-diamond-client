@@ -16,7 +16,7 @@ export function PluginPanel() {
   const handleInstall = async () => {
     if (!name || !source) return;
     if (!isTauri) {
-      setLog("⚠️ Plugin installation requires the Tauri desktop app. Skills can be added manually by placing SKILL.md files in ~/.ruby-diamond/skills/.");
+      setLog("⚠️ Plugin installation requires the Tauri desktop app. Skills can be added manually by placing SKILL.md files in ~/.aura-mathetes/skills/.");
       return;
     }
     setInstalling(true);

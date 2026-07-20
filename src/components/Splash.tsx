@@ -80,7 +80,7 @@ export function Splash({ onDismiss }: Props) {
           marginBottom: 8,
           textShadow: "0 2px 20px rgba(0,0,0,0.5)",
         }}>
-          Ruby Diamond
+          Aura Mathetes
         </h1>
 
         <p style={{
