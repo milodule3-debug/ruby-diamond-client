@@ -1,0 +1,98 @@
+/* Aura design tokens — from design_handoff_workspace_dashboard/design-tokens.
+   Colors, type, spacing are final per handoff; do not tweak values here. */
+
+:root {
+  /* ---- base neutrals ---- */
+  --aura-black: #0c1322;        /* app shell — deep ink navy */
+  --aura-black-warm: #1a1a1a;   /* terminal true-black surface */
+  --aura-surface-1: #101a2c;    /* raised panel on navy */
+  --aura-surface-2: #0a1020;    /* deepest recessed panel */
+  --aura-border: #4e3d30;       /* warm hairline border (terminal) */
+  --aura-border-navy: rgba(110, 208, 234, 0.16); /* cool hairline border */
+
+  /* ---- cream / text-on-dark ---- */
+  --aura-cream-100: #f3ece4;
+  --aura-cream-200: #ede0cc;
+  --aura-cream-300: #eaf1f7;
+  --aura-cream-muted: #c8b5a0;
+  --aura-taupe: #8a7768;
+  --aura-slate: #aebccd;
+  --aura-slate-dim: #73849a;
+  --aura-slate-dimmer: #56657a;
+
+  /* ---- primary accent: terracotta ---- */
+  --aura-terracotta: #cc785c;
+  --aura-terracotta-site: #c2674c;
+  --aura-terracotta-deep: #411e13;
+  --aura-terracotta-ink: #2a140d;
+
+  /* ---- secondary accent: cyan ---- */
+  --aura-cyan: #6ed0ea;
+  --aura-cyan-dim: #9fdcec;
+
+  /* ---- ruby + gold motif (rare use) ---- */
+  --aura-ruby: #9b1b30;
+  --aura-gold: #c9a84c;
+
+  /* ---- semantic status ---- */
+  --aura-success: #5a9e6e;
+  --aura-success-bright: #7fcf95;
+  --aura-warning: #d4903a;
+  --aura-error: #b15439;
+
+  /* ---- semantic aliases ---- */
+  --surface-page: var(--aura-black);
+  --surface-page-warm: var(--aura-black-warm);
+  --surface-card: var(--aura-surface-1);
+  --surface-recessed: var(--aura-surface-2);
+  --border-default: var(--aura-border-navy);
+  --border-warm: var(--aura-border);
+
+  --text-heading: var(--aura-cream-100);
+  --text-body: var(--aura-slate);
+  --text-body-warm: var(--aura-cream-200);
+  --text-muted: var(--aura-slate-dim);
+  --text-muted-warm: var(--aura-taupe);
+
+  --accent-primary: var(--aura-terracotta-site);
+  --accent-primary-cli: var(--aura-terracotta);
+  --accent-secondary: var(--aura-cyan);
+
+  --status-success: var(--aura-success);
+  --status-warning: var(--aura-warning);
+  --status-error: var(--aura-error);
+
+  /* ---- type ---- */
+  --font-serif-display: 'Cormorant Garamond', Georgia, serif;
+  --font-mono: 'IBM Plex Mono', 'SF Mono', Consolas, monospace;
+  --font-sans: 'Space Grotesk', system-ui, sans-serif;
+
+  --text-mono-label: 0.72rem;
+  --text-mono-body: 0.84rem;
+  --text-mono-lg: 0.96rem;
+  --text-body-md: 1.08rem;
+  --text-body-sm: 0.92rem;
+
+  --tracking-label: 0.3em;
+  --tracking-nav: 0.06em;
+  --tracking-tight: 0.01em;
+
+  --leading-body: 1.65;
+  --leading-tight: 0.96;
+  --leading-display: 1.14;
+
+  /* ---- spacing + shape ---- */
+  --space-1: 0.25rem;
+  --space-2: 0.5rem;
+  --space-3: 0.75rem;
+  --space-4: 1rem;
+  --space-5: 1.5rem;
+  --space-6: 2rem;
+
+  --radius-sm: 6px;
+  --radius-md: 10px;
+  --radius-lg: 12px;
+  --radius-xl: 14px;
+
+  --shadow-terminal: inset 0 0 0 1px rgba(110, 208, 234, 0.16);
+}
